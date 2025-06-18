@@ -1,0 +1,49 @@
+# Node Modules
+node_modules/
+
+# TypeScript build output for backend
+backend/dist/
+
+# Next.js build output for frontend
+frontend/.next/
+frontend/out/ # For static exports if you ever use them
+
+# Dependencies for frontend (if not already covered by root node_modules)
+frontend/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific files
+.vscode/ # VS Code settings, if you don't want to share them
+.idea/   # IntelliJ / WebStorm
+*.sublime-project
+*.sublime-workspace
+
+# Docker specific (generally not needed if docker-compose.yml is committed)
+# If you have specific Docker build context files you want to ignore, add them here.
+# For example, if you create a .dockerignore in backend/ it would handle files there.
+
+# Test coverage reports
+coverage/
+
+# Misc
+.cache/
+.bytenode/0
+
