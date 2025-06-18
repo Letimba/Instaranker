@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",  // <-- DIESER BEFEHL IST ENTSCHEIDEND!
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4", // oder deine exakte Next.js Version
+    "next": "14.2.4",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
